@@ -47,15 +47,15 @@ function getWinner(playerMove,computerMove) {
     } else if (playerMove == "rock" && computerMove == "rock"){
         winner = 'Tie';
     } else if (playerMove == "paper" && computerMove == "rock"){
-        winner 'Player';
+        winner ='Player';
     } else if (playerMove == "paper" && computerMove == "scissors"){
         winner = 'Computer';
     } else if (playerMove == "paper" && computerMove == "paper"){
-        winner == 'Tie';
+        winner = 'Tie';
     } else if (playerMove == "scissors" && computerMove == "rock"){
-        winner == 'Computer';
+        winner = 'Computer';
     } else if (playerMove == "scissors" && computerMove == "paper"){
-        winner == 'Player';
+        winner = 'Player';
     };
 
     // Write code that will set winner to either 'player', 'computer', or 'tie' based on the values of playerMove and computerMove.
